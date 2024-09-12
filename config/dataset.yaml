@@ -1,0 +1,14 @@
+images: animas/agri_data/images.txt             # path to image list as txt file
+images_eval: animas/agri_data/images.txt   # path to image list as txt file
+
+split_ratio: 
+  train: 0.8   # ratio of training images
+  valid: 0.2   # ratio of validation images
+
+num_classes: 2
+
+# class names
+class_names: [
+'aeroplane',
+'crop',
+]
